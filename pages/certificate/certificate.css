@@ -1,0 +1,11 @@
+.certificate {
+  padding-top: 30px;
+}
+.certificate__img {
+  margin: 20px auto;
+  height: 200px;
+  width: 300px;
+  background-image: url(../img/certificate.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}

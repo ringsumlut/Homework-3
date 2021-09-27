@@ -3,16 +3,16 @@ function route() {
     let pageID = hashTag.replace("#/", "")
 
     // MODEL.getMyVariable(pageID);
-    
-    if(pageID == "") {
-        navToPage ("home");
+
+    if (pageID == "") {
+        navToPage("home");
     }
     else {
         navToPage(pageID);
     }
 }
 function navToPage(pageName) {
-    $.get(`pages/${pageName}/${pageName}.html`, function(data){
+    $.get(`pages/${pageName}/${pageName}.html`, function (data) {
         console.log(data);
         $("#app").html(data);
     })
@@ -23,7 +23,8 @@ function initListeners() {
     route();
 }
 
-$(document).ready(function(){
+$(document).ready(function () {
     initListeners();
     //navToPage("home");
 });
+

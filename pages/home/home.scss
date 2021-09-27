@@ -1,0 +1,48 @@
+.box {
+    padding-top: 10px;
+    &__img {
+        
+        display: block;
+        margin: 0 auto;
+        height: 500px;
+        width: 500px;
+        background-image: url(../img/logo.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        //background: aqua;
+    }
+
+    &__content {
+        
+        background: antiquewhite ;
+    }
+
+    &__shopName {
+        list-style-type: none;
+        display: flex;
+        width: 400px;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 60px;
+    }
+}
+
+.time {
+    padding-top: 10px;
+
+    &__open {
+        width: 400px;
+        margin: 0 auto;
+        margin-top: 20px;
+        color: firebrick;
+        
+    }
+    &__list {
+        list-style-type: none;
+        width: 400px;
+        margin: 0 auto;
+        margin-top: 20px;
+        font-size: 20px;
+        color: blue;
+    }
+}

@@ -5,7 +5,8 @@
 }
 html,
 body {
-  height: 100%;
+  margin-bottom: 50px;
+  clear: both;
 }
 h1,
 h2,
@@ -25,9 +26,7 @@ nav {
 nav a:hover {
   color: red;
 }
-nav a:active {
-  background-color: yellow;
-}
+
 nav a {
   text-decoration: none;
   color: black;
@@ -35,3 +34,15 @@ nav a {
   display: inline-block;
   font-weight: bold;
 }
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: whitesmoke;
+  color: black;
+  text-align: center;
+  padding: 10px;
+}
+

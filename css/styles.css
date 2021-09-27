@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+nav {
+  background-color: aliceblue;
+  color: black;
+  text-align: center;
+}
+
+nav a:hover {
+  color: red;
+}
+
+nav a:active {
+  background-color: yellow;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 14px 16px;
+  display: inline-block;
+  font-weight: bold;
+}
